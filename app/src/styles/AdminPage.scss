@@ -1,0 +1,27 @@
+h2 {
+    margin-bottom: 25px;
+}
+
+.crud-pastries {
+    table {
+        margin-top: 30px;
+        width: 100%;
+    
+        td{
+            padding: 10px;
+            text-align: center;
+    
+            .btn{
+                margin-right: 10px;
+    
+                &:last-of-type{
+                    margin-right: 0;
+                }
+            }
+    
+            img{
+                width: 200px; 
+            }
+        }
+    }
+}

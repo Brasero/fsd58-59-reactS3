@@ -1,0 +1,20 @@
+.section-play {
+    text-align: center;
+    margin-bottom: 50px;
+
+    h2{
+        margin-bottom: 25px;
+    }
+}
+
+.section-lots h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.lots-pastries {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
